@@ -47,7 +47,7 @@ spec:
   ingressClassName: alb
   rules:
   - host: "app2.gspaws.online"
-  - http:
+    http:
       paths:
       - path: /
         pathType: Prefix
